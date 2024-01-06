@@ -23,3 +23,21 @@ class inherit_cu(convert_unit):
 a = inherit_cu()
 print(a.inch(10))
 """
+
+'''
+import convert_unit
+print(convert_unit.radians(10))
+'''
+
+'''
+from convert_unit import radians
+print(radians(30))
+'''
+
+'''
+import convert_unit
+print(convert_unit.radians(20))
+'''
+
+from a.b.c import convert_unit
+print(convert_unit(10))
